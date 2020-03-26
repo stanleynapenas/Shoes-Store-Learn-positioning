@@ -1,0 +1,86 @@
+/* MACRO CLASS */
+
+/* give padding 10% so it is resposive to 10% of every screen */
+body {
+  background: #e9e9e9;
+  padding: 10%;
+  font-family: poppins;
+}
+
+img {
+  width: 100%;
+}
+
+h3 {
+  color: #333333;
+}
+
+/* MACRO CLASS FINISH */
+
+/* MICRO CLASS */
+
+/* 100% to cover all the space available, so it can be responsive horizontaly */
+/* section {
+    width: 100%;
+}*/
+
+/* microcontainer should be inline so it could be all in the same line and it should be 33% width of the macrocontainer */
+.macro-container {
+  width: 100%;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+.micro-container {
+  background-color: #fff;
+  width: 33%;
+  height: 380px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-radius: 3%;
+  position: relative;
+}
+
+/* class of the shoes text */
+
+.prezzo {
+  color: #2a689a;
+}
+
+.testo-div {
+  position: absolute;
+  bottom: 20px;
+  left: 5%;
+}
+
+/* hover effect */
+
+.nike-logo {
+  display: none;
+  width: 80px;
+  position: absolute;
+  bottom: 60px;
+  right: 5%;
+}
+
+.micro-container:hover .nike-logo {
+  display: block;
+}
+
+/* discount */
+
+.discount-div {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #02040c;
+  padding: 5px;
+  color: #e9e9e9;
+}
+
+.footer-p {
+  color: #f59950;
+  text-align: center;
+}
